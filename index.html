@@ -1,93 +1,166 @@
 <!DOCTYPE html>
-<html lang="ru-Ru">
+<html lang="ru-RU">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtube clone</title>
+    <title>YouTube Clone</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Youtube clone</h1>
     <header class="header">
         <div class="header-left">
-            <button class="menu-btn">☰</button>
+            <button>≡</button>
             <div class="logo">
-                <span class="logo-icon">▶️</span>
-                <span class="logo-text">YouTube</span>
+                <span>▶️</span>
+                <span>YouTube</span>
             </div>
         </div>
         <div class="header-center">
-            <input type="text" placeholder="Поиск" class="search-input">
-            <button class="search-btn">�</button>
+            <input type="text" placeholder="Поиск" class="search-input" />
+            <button class="search-btn">🔍</button>
         </div>
         <div class="header-right">
             <button>➕</button>
-            <button>�</button>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-LGZtyxy2JkS9Jxu6BlZsyCQPiya4ZkrE2w&s"
-                alt="Avatar" class="avatar" height="20" width="20">
+            <button>🔔</button>
+            <img src="https://placeholder.ru/32_" alt="Avatar" class="avatar" />
         </div>
     </header>
+
     <div class="content">
         <aside class="sidebar">
-            <nav>
-                <a href="#" class="sidebar-link active">
-                    <span class="icon">🏠</span>
+            <nav class="nav">
+                <a href="#" class="nav-link active">
+                    <span>🏠</span>
                     <span>Главная</span>
                 </a>
-                <a href="#" class="sidebar-link">
-                    <span class="icon">🔥</span>
+                <a href="#" class="nav-link">
+                    <span>🔥</span>
                     <span>В тренде</span>
                 </a>
-                <a href="#" class="sidebar-link">
-                    <span class="icon">✉️</span>
+                <a href="#" class="nav-link">
+                    <span>✉️</span>
                     <span>Подписки</span>
                 </a>
-            </nav>
-            <hr />
-            <nav>
-                <a href="#" class="sidebar-link">
-                    <span class="icon">📚</span>
+                <hr>
+                <a href="#" class="nav-link">
+                    <span>📚</span>
                     <span>Библиотека</span>
                 </a>
-                <a href="#" class="sidebar-link">
-                    <span class="icon">🕐</span>
+                <a href="#" class="nav-link">
+                    <span>⏰</span>
                     <span>История</span>
                 </a>
-                <a href="#" class="sidebar-link">
-                    <span class="icon">👍</span>
+                <a href="#" class="nav-link">
+                    <span>👍</span>
                     <span>Понравилось</span>
                 </a>
             </nav>
         </aside>
+
         <main class="main">
             <div class="chips">
-                <div class="chip active">Все</div>
-                <div class="chip">Музыка</div>
-                <div class="chip">Игры</div>
-                <div class="chip">Новости</div>
-                <div class="chip">Спорт</div>
-                <div class="chip">Образование</div>
-                <div class="chip">Технологии</div>
+                <button class="chip active">Все</button>
+                <button class="chip">Музыка</button>
+                <button class="chip">Игры</button>
+                <button class="chip">Новости</button>
+                <button class="chip">Спорт</button>
+                <button class="chip">Образование</button>
+                <button class="chip">Технологии</button>
             </div>
 
             <div class="video-grid">
                 <article class="video-card">
                     <div class="thumbnail">
-                        <img src="https://placehold.ru/320x180" alt="Video" />
+                        <img src="https://placeholder.ru/320x180_" alt="Video thumbnail">
                         <span class="duration">22:15</span>
                     </div>
-                <div class="video-info">
-                    <img src="https://placehold.ru/36" alt="Channel" class="channel-avatar" />
-                    <div class="video-details">
-                        <h3 class="video-title">Обучающее видео по программированию на языке Python</h3>
-                        <p class="channel-name">Code School</p>
-                        <p class="video-meta">890 тыс. просмотров • 3 дня назад</p>
+                    <div class="video-info">
+                        <img src="https://placeholder.ru/36_" alt="Channel avatar" class="channel-avatar">
+                        <div class="video-details">
+                            <h3 class="video-title">Обучающее видео по программированию на языке Python</h3>
+                            <p class="channel-name">Code School</p>
+                            <p class="video-meta">890 тыс. просмотров • 3 дня назад</p>
+                        </div>
                     </div>
-                </div>
                 </article>
-            
+
+                <article class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://placeholder.ru/320x180_" alt="Video thumbnail">
+                        <span class="duration">22:15</span>
+                    </div>
+                    <div class="video-info">
+                        <img src="https://placeholder.ru/36_" alt="Channel avatar" class="channel-avatar">
+                        <div class="video-details">
+                            <h3 class="video-title">Обучающее видео по программированию на языке Python</h3>
+                            <p class="channel-name">Code School</p>
+                            <p class="video-meta">890 тыс. просмотров • 3 дня назад</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://placeholder.ru/320x180_" alt="Video thumbnail">
+                        <span class="duration">22:15</span>
+                    </div>
+                    <div class="video-info">
+                        <img src="https://placeholder.ru/36_" alt="Channel avatar" class="channel-avatar">
+                        <div class="video-details">
+                            <h3 class="video-title">Обучающее видео по программированию на языке Python</h3>
+                            <p class="channel-name">Code School</p>
+                            <p class="video-meta">890 тыс. просмотров • 3 дня назад</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://placeholder.ru/320x180_" alt="Video thumbnail">
+                        <span class="duration">22:15</span>
+                    </div>
+                    <div class="video-info">
+                        <img src="https://placeholder.ru/36_" alt="Channel avatar" class="channel-avatar">
+                        <div class="video-details">
+                            <h3 class="video-title">Обучающее видео по программированию на языке Python</h3>
+                            <p class="channel-name">Code School</p>
+                            <p class="video-meta">890 тыс. просмотров • 3 дня назад</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://placeholder.ru/320x180_" alt="Video thumbnail">
+                        <span class="duration">22:15</span>
+                    </div>
+                    <div class="video-info">
+                        <img src="https://placeholder.ru/36_" alt="Channel avatar" class="channel-avatar">
+                        <div class="video-details">
+                            <h3 class="video-title">Обучающее видео по программированию на языке Python</h3>
+                            <p class="channel-name">Code School</p>
+                            <p class="video-meta">890 тыс. просмотров • 3 дня назад</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://placeholder.ru/320x180_" alt="Video thumbnail">
+                        <span class="duration">22:15</span>
+                    </div>
+                    <div class="video-info">
+                        <img src="https://placeholder.ru/36_" alt="Channel avatar" class="channel-avatar">
+                        <div class="video-details">
+                            <h3 class="video-title">Обучающее видео по программированию на языке Python</h3>
+                            <p class="channel-name">Code School</p>
+                            <p class="video-meta">890 тыс. просмотров • 3 дня назад</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </main>
     </div>
 </body>
