@@ -275,3 +275,68 @@ button:hover {
 .video-card:hover .thumbnail img {
     transform: scale(1.05);
 }
+
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 72px;
+    }
+
+    .sidebar span:not(.icon) {
+        display: none;
+    }
+
+    .sidebar hr {
+        margin: 8px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-center {
+        margin: 0 16px;
+        max-width: 400px;
+    }
+
+    .video-grid {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        padding: 0 12px;
+        height: 52px;
+    }
+
+    .header-left,
+    .header-right {
+        gap: 8px;
+    }
+
+    .header-center {
+        margin: 0 8px;
+    }
+
+    .search-input {
+        height: 36px;
+        font-size: 14px;
+    }
+
+    .search-btn {
+        width: 48px;
+        height: 36px;
+    }
+
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .chips {
+        gap: 8px;
+        padding: 8px 0;
+    }
+
+    .chip {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+}
